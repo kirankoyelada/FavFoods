@@ -1,0 +1,16 @@
+{
+  "name": "favfoods",
+  "version": "1.0.0",
+  "description": "this is fav food api example",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "~4.16.2",
+    "body-parser": "~1.18.2",
+    "morgan": "~1.9.0"
+  },
+  "author": "Kiran Kumar",
+  "license": "ISC"
+}
