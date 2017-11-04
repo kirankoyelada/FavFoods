@@ -13,5 +13,5 @@ app.get('/favFoods',(req,res)=>{
     res.send(foods)
 })
 const Port=process.env.Port || 7979
-console.log(Port)
-app.listen(Port)
+
+app.listen(process.env.Port || 7979)
